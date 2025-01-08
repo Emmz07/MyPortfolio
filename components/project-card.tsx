@@ -29,6 +29,7 @@ export function ProjectCard({
           alt={title}
           fill
           className="object-cover"
+          sizes="100%"
         />
       </div>
       <div className="p-6">

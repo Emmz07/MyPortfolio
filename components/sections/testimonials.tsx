@@ -7,7 +7,7 @@ const testimonials = [
   {
     content: "Emmanuel is an exceptional developer who consistently delivers high-quality work. His attention to detail and problem-solving skills are outstanding.",
     author: "Taiwo M.O",
-    role: "Tech Lead at McG Technologies",
+    role: "CEO at McG Technologies",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80"
   },
   {

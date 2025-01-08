@@ -26,6 +26,7 @@ export function TestimonialCard({
             alt={author}
             fill
             className="object-cover"
+            sizes="100%"
           />
         </div>
         <div>
