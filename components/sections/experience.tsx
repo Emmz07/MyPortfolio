@@ -9,9 +9,10 @@ const experiences = [
     company: "MobileKings",
     period: "October 2023 – Present",
     responsibilities: [
-      "Spearheaded the redesign of MobileKing Website with Next.js SSR",
-      "Automated CI/CD pipelines using GitHub workflows",
-      "Developed interconnected wikis and notification system using Redux Toolkit and GraphQL"
+      "Component Libraries: Built and maintained reusable, scalable, and customizable components using design systems like Material-UI, TailwindCSS, or Chakra UI.",
+      "Performance Optimization: Enhanced application performance by analyzing and improving load times, memory usage, and responsiveness.",
+      "Developed interconnected wikis and notification system using Redux Toolkit and GraphQL",
+      "Collaboration: Worked closely with cross-functional teams, including backend engineers, designers, and product managers, to deliver seamless user experiences."
     ]
   },
   {
@@ -20,7 +21,7 @@ const experiences = [
     period: "January 2020 - March 2023",
     responsibilities: [
       "Gained foundational and intermediate frontend development skills",
-      "Developed web components using SCSS",
+      "Code Reviews: Conducted code reviews to ensure high-quality, maintainable, and bug-free code adhering to industry best practices.",
       "Involved in testing and debugging during site revamp",
       "Worked as a freelancer to gain personal experience"
     ]
@@ -41,6 +42,19 @@ export function Experience() {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
           ))}
+        </div>
+
+        <div className="mt-10 ml-5 mb-10">
+          <h3 className="text-2xl font-bold mb-8">Achievements</h3>
+          <div>
+            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
+              <li>Spearheaded the development of a complex, high-traffic web application, leading to a 20% increase in user engagement.</li>
+              <li>Migrated legacy codebase to a modern React/TypeScript stack, resulting in a 35% performance boost and easier maintainability.</li>
+              <li>Implemented a dark mode feature that aligned with user preferences, enhancing user experience and increasing retention by 15%.</li>
+              <li>Reduced page load times by 40% through code splitting, lazy loading, and advanced caching strategies.</li>
+              <li>Contributed to the design and rollout of a robust component library, which decreased development time by 30% across teams.</li>
+            </ul>
+          </div>
         </div>
       </motion.div>
     </section>

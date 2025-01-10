@@ -5,20 +5,20 @@ import { ProjectCard } from "../project-card";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform built with Next.js and Firebase, featuring real-time inventory management and secure payment processing.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80",
-    demoLink: "https://ecommerce-demo.com",
-    githubLink: "https://github.com/ojoemmanuel",
-    tags: ["Next.js", "Firebase", "TypeScript"]
+    title: "TradeWithChun",
+    description: "A stock trading platform with real-time market data, copy-trading, portfolio management, and social trading features.",
+    image: "/copytr.png",
+    demoLink: "https://copytrading-company-62q6.vercel.app/",
+    githubLink: "https://github.com/Emmz07/copytradingCompany",
+    tags: ["Next.js", "Tailwind", "TypeScript"]
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team collaboration features.",
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80",
+    title: "Nyroesreign",
+    description: "Clothing store with a modern design, advanced filtering and sorting options, and seamless checkout process.",
+    image: "/nyo.png",
     demoLink: "https://tasks-demo.com",
-    githubLink: "https://github.com/ojoemmanuel",
-    tags: ["React", "Firebase", "Tailwind"]
+    githubLink: "https://github.com/Emmz07/Nyroesreign",
+    tags: [ "Next.js", "Tailwind", "TypeScript"]
   }
 ];
 

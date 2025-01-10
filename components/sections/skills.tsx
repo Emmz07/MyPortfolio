@@ -12,8 +12,10 @@ const skills = [
   { name: "HTML/CSS", icon: "html" },
   { name: "Firebase", icon: "firebase" },
   { name: "Tailwind CSS", icon: "tailwind" },
-  { name: "SCSS", icon: "sass" },
-  { name: "Sass", icon: "sass" }
+  { name: "SCSS", icon: "scss" },
+  { name: "Sass", icon: "sass" },
+  { name: "Mongodb", icon: "mongodb" },
+  { name: "Nodejs", icon: "node" }
 ];
 
 export function Skills() {

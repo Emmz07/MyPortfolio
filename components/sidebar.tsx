@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
+import Image from "next/image";
 
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { 
@@ -29,7 +30,7 @@ export function Sidebar() {
   ];
 
   
-  
+  const image = "\public\emmz.jpg";
 
   const handleClick = (id: string) => {
     setActiveSection(id);
@@ -79,6 +80,15 @@ export function Sidebar() {
     >
       <div className="flex flex-col h-full">
         <div className="flex justify-between items-center mb-8">
+          <div className="mr-4">
+          <Image
+                  src="/emmz.jpg" // Replace with the actual path to your image in the public folder
+                  alt="Ojo Emmanuel"
+                  width={50} // Adjust the width as needed
+                  height={50} // Adjust the height as needed
+                  className="rounded-full" // Optional: For a circular image
+                />
+          </div>
           <div>
             <h3 className="text-2xl font-bold">Ojo Emmanuel</h3>
             <p className="text-muted-foreground">Software Engineer</p>

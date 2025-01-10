@@ -21,7 +21,7 @@ export function Contact() {
             <h3 className="text-2xl font-semibold mb-6">Connect With Me</h3>
             <div className="space-y-4">
               <a
-                href="https://github.com/ojoemmanuel"
+                href="https://github.com/Emmz07"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
@@ -30,7 +30,7 @@ export function Contact() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/ojoemmanuel"
+                href="https://www.linkedin.com/in/ojo-emmanuel-86782a25a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
@@ -39,7 +39,7 @@ export function Contact() {
                 LinkedIn
               </a>
               <a
-                href="https://twitter.com/ojoemmanuel"
+                href="https://x.com/Emmanue87766227"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
@@ -48,11 +48,11 @@ export function Contact() {
                 Twitter
               </a>
               <a
-                href="mailto:contact@ojoemmanuel.dev"
+                href="mailto:ojoemmanueltiwalade@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5" />
-                contact@ojoemmanuel.dev
+                Email
               </a>
             </div>
           </Card>
