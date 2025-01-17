@@ -22,7 +22,7 @@ export function Sidebar() {
 
   const menuItems = [
     { href: "#home", id: "hero", label: "Home" },
-    { href: "#about", id: "experience", label: "Experience" },
+    { href: "#experience", id: "experience", label: "Experience" },
     { href: "#projects", id: "projects", label: "Projects" },
     { href: "#skills", id: "skills", label: "Skills" },
     { href: "#testimonials", id: "testimonials", label: "Testimonials" },
@@ -71,7 +71,7 @@ export function Sidebar() {
       </Sheet>
     </div>
 
-    <div className="hide">
+    <div className="sidebar">
         <motion.aside
       className="fixed left-0 top-0 h-screen w-[300px] bg-background border-r p-8"
       initial={{ x: -300 }}
@@ -89,7 +89,7 @@ export function Sidebar() {
                   className="rounded-full" // Optional: For a circular image
                 />
           </div>
-          <div>
+          <div >
             <h3 className="text-2xl font-bold">Ojo Emmanuel</h3>
             <p className="text-muted-foreground">Software Engineer</p>
           </div>

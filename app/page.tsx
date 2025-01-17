@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex min-h-screen bg-background">
       <Sidebar />
       <div className="div">
-      <main className="flex-1 p-8 ml-[300px]">
+      <main className="flex-1 p-8 ml-[300px] main-content">
         <Hero />
         <Experience />
         <Projects />
