@@ -50,7 +50,7 @@ export function Experience() {
             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
               <li>Spearheaded the development of a complex, high-traffic web application, leading to a 20% increase in user engagement.</li>
               <li>Migrated legacy codebase to a modern React/TypeScript stack, resulting in a 35% performance boost and easier maintainability.</li>
-              <li>Implemented a dark mode feature that aligned with user preferences, enhancing user experience and increasing retention by 15%.</li>
+              <li>Implemented a dark mode feature that aligned with  user preferences, enhancing user experience and increasing retention by 15%.</li>
               <li>Reduced page load times by 40% through code splitting, lazy loading, and advanced caching strategies.</li>
               <li>Contributed to the design and rollout of a robust component library, which decreased development time by 30% across teams.</li>
             </ul>
