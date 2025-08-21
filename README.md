@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. Showcases projects, skills, testimonials, and contact information for Ojo Emmanuel, a MERN Stack Developer.
 
-### Live Demo - https://ojo-portfolio-nextjs-hackathon.vercel.app/
+### Live Demo - [https://ojo-portfolio-nextjs-hackathon.vercel.app/](https://my-portfolio-ojoemmanuel-psgd398z4-emmz07s-projects.vercel.app/)
 
 ## Features
 - Responsive sidebar navigation
