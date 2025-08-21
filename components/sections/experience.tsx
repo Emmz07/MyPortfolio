@@ -5,10 +5,14 @@ import { ExperienceCard } from "../experience-card";
 
 const experiences = [
   {
-    title: "Senior Frontend Engineer",
+    title: "Senior Frontend Developer",
     company: "MobileKings",
     period: "October 2023 – Present",
     responsibilities: [
+      "Led the development of a complex, high-traffic web application, resulting in a 20% increase in user engagement.",
+      "Migrated legacy codebase to a modern React/TypeScript stack, resulting in a 35% performance boost and easier maintainability.",
+      "Implemented a dark mode feature that aligned with user preferences, enhancing user experience and increasing retention by 15%.",
+      "Reduced page load times by 40% through code splitting, lazy loading, and advanced caching strategies.",
       "Component Libraries: Built and maintained reusable, scalable, and customizable components using design systems like Material-UI, TailwindCSS, or Chakra UI.",
       "Performance Optimization: Enhanced application performance by analyzing and improving load times, memory usage, and responsiveness.",
       "Developed interconnected wikis and notification system using Redux Toolkit and GraphQL",

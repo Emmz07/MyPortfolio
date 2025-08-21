@@ -17,15 +17,13 @@ export function Hero() {
           Hi, I'm{" "}
           <span className="text-primary">Ojo Emmanuel</span>
         </h1>
-        <h2 className="text-3xl text-muted-foreground mb-8">Senior Frontend Engineer</h2>
+        <h2 className="text-3xl text-muted-foreground mb-8">MERN Stack Developer | Full-Stack Web Developer</h2>
         <p className="text-xl leading-relaxed mb-8">
-          A passionate software engineer with over 4 years of experience in building modern web applications.
-          Specialized in frontend development with expertise in React, Next.js, and TypeScript.
-          Currently focused on creating scalable solutions and improving developer experience at MobileKings.
+          I'm a passionate and detail-oriented MERN Stack Developer with experience building responsive, scalable, and user-friendly applications. Skilled in MongoDB, Express.js, React.js, and Node.js, with a solid understanding of RESTful APIs, authentication, state management, and database design. Adept at working independently or in teams to deliver efficient full-stack solutions.
         </p>
         <div className="flex gap-4">
           <Button asChild>
-            <a href="/resume.pdf" download>
+            <a href="/resumeOjo.pdf" download>
               <Download className="mr-2 h-4 w-4" />
               Download CV
             </a>

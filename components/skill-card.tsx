@@ -11,6 +11,9 @@ import {
   SiSass,
   SiMongodb,
   SiNodedotjs,
+  SiExpress,
+  SiGraphql,
+  SiMysql
 } from "react-icons/si";
 
 // Define available icons in an object
@@ -26,7 +29,9 @@ const icons = {
   sass: SiSass,
   mongodb: SiMongodb,
   node: SiNodedotjs,
-
+  express: SiExpress,
+  graphql: SiGraphql,
+  mysql: SiMysql
 };
 
 interface SkillCardProps {

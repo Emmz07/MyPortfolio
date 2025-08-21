@@ -15,7 +15,10 @@ const skills = [
   { name: "SCSS", icon: "scss" },
   { name: "Sass", icon: "sass" },
   { name: "Mongodb", icon: "mongodb" },
-  { name: "Nodejs", icon: "node" }
+  { name: "Nodejs", icon: "node" },
+  { name: "Express.js", icon: "express" },
+  { name: "GraphQL", icon: "graphql" },
+  { name: "MySQL", icon: "mysql" }
 ];
 
 export function Skills() {
@@ -30,7 +33,7 @@ export function Skills() {
         <h2 className="text-3xl font-bold mb-8">Skills & Technologies</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {skills.map((skill, index) => (
-            <SkillCard key={index} {...skill} icon={skill.icon as "react" | "vue" | "next" | "typescript" | "javascript" | "html" | "firebase" | "tailwind" | "sass"} />
+            <SkillCard key={index} {...skill} icon={skill.icon as "react" | "vue" | "next" | "typescript" | "javascript" | "html" | "firebase" | "tailwind" | "sass" | "mongodb" | "node" | "express" | "graphql" | "mysql"} />
              ))}
         </div>
       </motion.div>

@@ -4,6 +4,22 @@ import { motion } from "framer-motion";
 import { ProjectCard } from "../project-card";
 
 const projects = [
+    {
+    title: "KCC Hotels",
+    description: "Developed a responsive hotel booking platform using React.js and Tailwind CSS.",
+    image: "/kccHome.png",
+    demoLink: "https://kcc-hotels.vercel.app/",
+    githubLink: "https://github.com/Emmz07/KCC-hotels",
+    tags: ["Next.js", "Tailwind", "TypeScript"]
+  },
+    {
+    title: "RentRoll MVP (MERN)",
+    description: "Created a rental management platform with React.js frontend and Node.js/Express.js backend.",
+    image: "/rent.png",
+    demoLink: "https://plp-final-project-rent-roll.vercel.app/",
+    githubLink: "https://github.com/Emmz07/copytradingCompany",
+    tags: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "TypeScript"]
+  },
   {
     title: "TradeWithChun",
     description: "A stock trading platform with real-time market data, copy-trading, portfolio management, and social trading features.",

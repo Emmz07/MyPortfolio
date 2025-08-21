@@ -82,7 +82,7 @@ export function Sidebar() {
         <div className="flex justify-between items-center mb-8">
           <div className="mr-4">
           <Image
-                  src="/emmz.jpg" // Replace with the actual path to your image in the public folder
+                  src="/blac.jpg" // Replace with the actual path to your image in the public folder
                   alt="Ojo Emmanuel"
                   width={50} // Adjust the width as needed
                   height={50} // Adjust the height as needed
@@ -91,8 +91,8 @@ export function Sidebar() {
           </div>
           <div >
             <h3 className="text-2xl font-bold">Ojo Emmanuel</h3>
-            <p className="text-muted-foreground">Software Engineer</p>
           </div>
+
           <ThemeToggle />
         </div>
 
